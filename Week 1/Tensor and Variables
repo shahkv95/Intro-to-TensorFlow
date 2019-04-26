@@ -1,0 +1,23 @@
+Concept of tensor - slicing matrices - reshaping
+
+
+A tensor, remember, is a n-dimensional array of data. When you create a tensor, you typically specify its shape. Well occasionally, 
+you will not specify the shape completely. For example, the first element of the shape could be variable, but let's ignore that special 
+case for now. So here, I'm creating a tf.constant(3). This is 0 rank tensor. It's just a number, it's a scalar. The shape, when you look 
+at the tensor, debug output, will be simply (). It's 0 rank.
+
+
+import tensorflow as tf 
+
+x = tf.constant( [[1,2,3] , [4,5,6]] )
+y = tf.reshape(x , [3,2] )
+with tf.Session() as sess:
+  print(x.eval())
+  print(y.eval())
+  
+  output:
+[[1 2 3]
+ [4 5 6]]
+[[1 2]
+ [3 4]
+ [5 6]]
