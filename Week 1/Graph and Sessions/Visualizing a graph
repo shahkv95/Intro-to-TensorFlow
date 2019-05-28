@@ -4,3 +4,6 @@ To get the graph in a better visualisation format, use Tensorflow Board.
   from google.datalab.ml import TensorBoard
   TensorBoard().start('./summaries')
   
+  
+  # I have come across a particular observation that the graph of the "training and validation accuracy" is the inverse of the graph of the
+  "training and the validation loss" - - not sure about the same . I need to once confirm it.
