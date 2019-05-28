@@ -15,7 +15,8 @@ with tf.Session() as sess:
   print(x.eval())
   print(y.eval())
   
-  output:
+  
+Output:
 [[1 2 3]
  [4 5 6]]
 [[1 2]
