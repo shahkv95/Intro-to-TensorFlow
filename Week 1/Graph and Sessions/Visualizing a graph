@@ -6,4 +6,4 @@ To get the graph in a better visualisation format, use Tensorflow Board.
   
   
   # I have come across a particular observation that the graph of the "training and validation accuracy" is the inverse of the graph of the
-  "training and the validation loss".
+ 
