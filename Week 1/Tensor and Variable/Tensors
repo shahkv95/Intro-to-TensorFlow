@@ -1,6 +1,5 @@
 Concept of tensor - slicing matrices - reshaping
 
-
 A tensor, remember, is a n-dimensional array of data. When you create a tensor, you typically specify its shape. Well occasionally, 
 you will not specify the shape completely. For example, the first element of the shape could be variable, but let's ignore that special 
 case for now. So here, I'm creating a tf.constant(3). This is 0 rank tensor. It's just a number, it's a scalar. The shape, when you look 
