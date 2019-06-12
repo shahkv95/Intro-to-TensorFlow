@@ -5,7 +5,6 @@ But the graph that comes out as an output, isn't in the human readable form. It 
 To get the graph in a better visualisation format, use Tensorflow Board.
 
   from google.datalab.ml import TensorBoard
-  
   TensorBoard().start('./summaries')
   
   
