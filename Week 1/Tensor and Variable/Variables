@@ -1,9 +1,7 @@
 Summary :
 
 1) Create a variable by calling "get variable".
-
 2) Second thing that we're learning here is that when we create a variable, we have to decide on how to initialize a variable. 
-
     In neural network training, random normal with truncation is a typical choice. 
 3) Use the variable just like any other tensor when building the graph.
 4) In your session, remember to initialize the variable. Usually, we will initialize all the variables together by calling the global 
