@@ -7,6 +7,5 @@ To get the graph in a better visualisation format, use Tensorflow Board.
   
   # I have come across a particular observation that the graph of the "training and validation accuracy" is the inverse of the graph of the
  "training and the validation loss".
-  
   # on searching more I came across the fact that it is not so. It is in just the case of classification. There would be a concept of mAP as well.
 
