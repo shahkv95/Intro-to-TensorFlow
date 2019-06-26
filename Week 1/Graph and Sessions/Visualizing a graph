@@ -1,10 +1,16 @@
 To write out the graph, use a tf.summary.FileWriter. So, use tf.summary.FileWriter to write out the session graph.
+
 But the graph that comes out as an output, isn't in the human readable form. It is rather in a binary format.
+
 To get the graph in a better visualisation format, use Tensorflow Board.
 
   from google.datalab.ml import TensorBoard
+  
   TensorBoard().start('./summaries')
   
   # I have come across a particular observation that the graph of the "training and validation accuracy" is the inverse of the graph of the
-  "training and the validation loss".
+ 
+ "training and the validation loss".
+  
   # on searching more I came across the fact that it is not so. It is in just the case of classification. There would be a concept of mAP as well.
+
